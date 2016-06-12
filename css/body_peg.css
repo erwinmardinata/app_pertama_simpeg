@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+#isi{
+	margin:auto;
+	padding: 10px;
+	width:700px;
+	font-family: 'Telex', Tahoma, sans-serif;
+}
+.photo{
+	float:left;
+	padding: 5px;
+	width:200px;
+	box-shadow: 1px 1px 5px;
+}
+.id{
+	float:right;
+	width:460px;
+	padding: 10px;
+}
+.table{
+	width: 450px;
+	border-collapse:collapse;
+	font: 14px 'Telex', Tahoma, sans-serif;
+}
+.table tr td {
+	padding: 5px;
+	font-weight:bold;
+	
+}
+.clear{
+	clear:both;
+	float:none;
+}
+.navigasi{
+	padding: 10px;
+	background:#b98d10;
+	border-bottom: 1px solid #666666;
+	font-weight:bold;
+	margin-top: 3px;
+}
+.navigasi-isi{
+	overflow:auto;
+	height: 200px;
+	border: 1px solid #666666;
+	padding: 10px;
+	display:none;
+	background:#FFFFFF;
+}
+.tabel{
+	width: 650px;
+	border-collapse:collapse;
+	font: 12px 'Telex', Tahoma, sans-serif;
+}
+.tabel tr th {
+	padding: 3px;
+	background:#999999;
+	font-weight:bold;	
+}
+.tabel tr td {
+	padding: 3px;	
+}

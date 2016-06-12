@@ -1,0 +1,80 @@
+#menu_kanan{
+	float:right;
+	width: 280px;
+	padding: 5px;
+	font: 12px 'Telex', Tahoma, sans-serif;
+	color:#000000;
+}
+#menu_kiri{
+	float:left;
+	width:500px;
+	padding: 5px;
+	font: 12px 'Telex', Tahoma, sans-serif;
+	color:#000000;
+}
+#menu_judul{
+	padding: 10px;
+	font-weight:bold;
+	border-bottom: 1px solid #999999;
+}
+#menu_judulkon{
+	padding: 10px;
+	font-weight:bold;
+	
+}
+#menu_isi{
+	padding: 10px;
+	margin-bottom: 5px;
+	text-align:justify;
+}
+#menu_isi li{
+	display:block;
+}
+#menu_isi li a{
+	text-decoration:none;
+}
+#menu_isikon{
+	padding: 10px;
+	margin-bottom: 5px;
+	text-align:justify;
+	border-bottom:1px dashed #999999;
+}
+.style{
+	border: 1px solid #999999;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.style label{
+	display:block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.style label>span{
+	width: 75px;
+	text-align:right;
+	float:left;
+	padding-right: 15px;
+	padding-top: 3px;
+}
+.style input[type="text"],.style input[type="password"],.style input[type="email"]{
+	width: 125px;
+	padding: 3px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+}
+.style textarea{
+	width: 250px;
+	height: 100px;
+	padding: 3px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+}
+.style input[type="submit"]{
+	background-color:#b98d10;
+	border: none;
+	border-radius: 4px;
+	padding: 3px;
+}
+.style input[type="submit"]:hover{
+	background: #975918;
+}

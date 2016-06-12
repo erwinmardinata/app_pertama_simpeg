@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#daftar{
+	width: 425px;
+	margin:auto;
+	height:auto;
+	padding: 10px;
+	border-bottom: 1px solid #999999;
+}
+.photo{
+	float:left;
+	width:125px;
+	padding: 10px;
+}
+.nama{
+	float:right;
+	width:250px;
+	padding: 10px;
+}
+.table{
+	border-collapse:collapse;
+	width:250px;
+	font-weight:bold;
+}
+.table tr td{
+	padding: 4px;
+}
